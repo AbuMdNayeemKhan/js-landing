@@ -4,11 +4,11 @@ let about = document.querySelector(".about");
 let aboutHidden = document.querySelector(".about-hidden");
 
 goDown.addEventListener("click", function(){
-    about.classList.add("d-none");
-    aboutHidden.classList.remove("d-none");
+    about.classList.remove("active");
+    aboutHidden.classList.add("active");
 });
 
 goUP.addEventListener("click", function(){
-    about.classList.remove("d-none");
-    aboutHidden.classList.add("d-none");
+    about.classList.add("active");
+    aboutHidden.classList.remove("active");
 });
