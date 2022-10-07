@@ -13,7 +13,6 @@ body {
 
 .nav-section {
   background-color: #D6C0E8;
-  -webkit-box-shadow: 0px 1px 12px 0px #000000;
   box-shadow: 0px 1px 12px 0px #000000;
   position: fixed;
   left: 0;
@@ -21,30 +20,36 @@ body {
   top: 0;
   z-index: 1;
 }
+
 .nav-section-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 5%;
 }
+
 .nav-section-wrapper-toggler {
   display: none;
 }
+
 .nav-section-wrapper-navbar ul {
   display: flex;
   gap: 80px;
   padding: 0;
   margin: 0;
 }
+
 .nav-section-wrapper-navbar ul li {
   list-style-type: none;
 }
+
 .nav-section-wrapper-navbar ul li:hover a {
   color: #9334BF;
 }
+
 .nav-section-wrapper-navbar ul li a {
   text-decoration: none;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -52,15 +57,17 @@ body {
   color: #000000;
   transition: 300ms;
 }
+
 .nav-section-wrapper-button {
   padding: 30px 0;
 }
+
 .nav-section-wrapper-button a {
   background-color: #9334BF;
   color: #FFFFFF;
   text-decoration: none;
   padding: 2px 48px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -69,6 +76,7 @@ body {
   border: 2px solid #9334BF;
   transition: 500ms;
 }
+
 .nav-section-wrapper-button a:hover {
   background-color: #FFFFFF;
   color: #9334BF;
@@ -80,11 +88,13 @@ body {
   overflow: hidden;
   position: relative;
 }
+
 .body-wrapper-content {
   margin: 250px 0 0 100px;
 }
+
 .body-wrapper-content h1 {
-  font-family: "Abril Fatface";
+  font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -92,8 +102,9 @@ body {
   color: #000000;
   margin-bottom: 56px;
 }
+
 .body-wrapper-content h2 {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -101,8 +112,9 @@ body {
   margin-bottom: 10px;
   color: #000000;
 }
+
 .body-wrapper-content p {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 275;
   font-size: 32px;
@@ -111,16 +123,19 @@ body {
   color: #000000;
   max-width: 654px;
 }
+
 .body-wrapper .left-bg {
   position: absolute;
   left: 0;
   bottom: 0;
 }
+
 .body-wrapper .home-bg {
   position: absolute;
   right: 0;
   bottom: 10px;
 }
+
 .body-wrapper .right-bg {
   position: absolute;
   right: 0;
@@ -134,17 +149,21 @@ body {
   overflow: hidden;
   transition: 1000ms;
 }
+
 .about.active {
   height: 100vh;
 }
+
 .about-cover {
   margin-top: 200px;
 }
+
 .about-content {
   margin: 200px 0 0 0;
 }
+
 .about-content h1 {
-  font-family: "Abril Fatface";
+  font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -153,8 +172,9 @@ body {
   margin-bottom: 56px;
   margin-left: -50px;
 }
+
 .about-content h2 {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -162,8 +182,9 @@ body {
   margin-bottom: 10px;
   color: #000000;
 }
+
 .about-content p {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 275;
   font-size: 32px;
@@ -172,17 +193,20 @@ body {
   color: #000000;
   max-width: 654px;
 }
+
 .about-bg-right {
   position: absolute;
   right: 0;
   bottom: 0;
 }
+
 .about .go-down {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   animation: upDown 1s linear infinite;
 }
+
 @keyframes upDown {
   0% {
     bottom: 0;
@@ -202,14 +226,17 @@ body {
   overflow: hidden;
   transition: 1000ms;
 }
+
 .about-hidden.active {
   height: 100vh;
 }
+
 .about-hidden-content {
   margin: 200px 0 0 0;
 }
+
 .about-hidden-content h2 {
-  font-family: "Abril Fatface";
+  font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -217,8 +244,9 @@ body {
   color: #000000;
   margin-bottom: 56px;
 }
+
 .about-hidden-content p {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 275;
   font-size: 32px;
@@ -227,19 +255,23 @@ body {
   color: #000000;
   max-width: 654px;
 }
+
 .about-hidden-img {
   margin: 200px 0 0 0;
   position: relative;
 }
+
 .about-hidden-img img {
   height: 320px;
   width: 450px;
 }
+
 .about-hidden-img img:last-child {
   position: absolute;
   top: 110%;
   right: 0;
 }
+
 .about-hidden .go-up {
   position: absolute;
   left: 50%;
@@ -247,6 +279,7 @@ body {
   transform: translateX(-50%);
   animation: upDown 1s linear infinite;
 }
+
 @keyframes upDown {
   0% {
     bottom: 0;
@@ -268,12 +301,14 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
 }
+
 .projects-hero {
   margin: 170px 0 0 0;
   z-index: 1;
 }
+
 .projects-hero h2 {
-  font-family: "Abril Fatface";
+  font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -281,12 +316,14 @@ body {
   color: #000000;
   text-align: center;
 }
+
 .projects-body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 100px;
 }
+
 .projects-top-right-bg {
   position: absolute;
   top: 90px;
@@ -302,11 +339,13 @@ body {
   background-size: 100% 85%;
   position: relative;
 }
+
 .services-content {
   margin: 150px 0 0 0;
 }
+
 .services-content h2 {
-  font-family: "Abril Fatface";
+  font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -314,6 +353,7 @@ body {
   color: #000000;
   margin: 0 0 36px -50px;
 }
+
 .services-content-item {
   background-color: #FFFFFF;
   margin-bottom: 15px;
@@ -321,14 +361,16 @@ body {
   padding: 13px 16px;
   border-radius: 10px;
 }
+
 .services-footer {
   position: absolute;
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
 }
+
 .services-footer h1 {
-  font-family: "Abril Fatface";
+  font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
   font-size: 46px;
@@ -346,11 +388,13 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 .contact-content {
   margin: 160px 0 0 0;
 }
+
 .contact-content h1 {
-  font-family: "Abril Fatface";
+  font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -358,8 +402,9 @@ body {
   color: #000000;
   margin-bottom: 36px;
 }
+
 .contact-content p {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 275;
   font-size: 32px;
@@ -368,6 +413,7 @@ body {
   color: #000000;
   max-width: 654px;
 }
+
 .contact-content ul {
   padding: 0;
   margin: 0;
@@ -376,13 +422,16 @@ body {
   gap: 30px;
   color: #FFFFFF;
 }
+
 .contact-content ul li {
   list-style-type: none;
 }
+
 .contact-content ul li:hover a {
   background-color: #9334BF;
   color: #FFFFFF;
 }
+
 .contact-content ul li a {
   color: #9334BF;
   font-size: 50px;
@@ -390,14 +439,16 @@ body {
   border-radius: 10px;
   transition: 700ms;
 }
+
 .contact-form {
   margin: 170px 0 0 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(148, 53, 192, 0.1019607843);
+  background-color: #9435c01a;
   padding: 100px 70px 250px 70px;
 }
+
 .contact-form input {
   width: 100%;
   border: none;
@@ -407,6 +458,7 @@ body {
   padding: 15px 0;
   background-color: transparent;
 }
+
 .contact-form input[type=submit] {
   width: 70%;
   border: 2px solid #9334BF;
@@ -415,7 +467,7 @@ body {
   padding: 7px;
   background-color: #9334BF;
   color: #FFFFFF;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -423,10 +475,12 @@ body {
   text-align: center;
   transition: 700ms;
 }
+
 .contact-form input[type=submit]:hover {
   color: #9334BF;
   background-color: #FFFFFF;
 }
+
 .contact-form textarea {
   width: 100%;
   border: none;
@@ -436,3 +490,4 @@ body {
   padding: 15px 0;
   background-color: transparent;
 }
+/*# sourceMappingURL=style.css.map */
