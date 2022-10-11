@@ -9,7 +9,10 @@
     }
     &-cover{
         margin-top: 200px;
-        img{}
+        img{
+            height: 559px;
+            width: 564px;
+        }
     }
     &-content{
         margin: 200px 0 0 0;
@@ -47,6 +50,10 @@
         position: absolute;
         right: 0;
         bottom: 0;
+        img{
+            height: 361px;
+            width: 525px;
+        }
     }
     .go-down{
         position: absolute;

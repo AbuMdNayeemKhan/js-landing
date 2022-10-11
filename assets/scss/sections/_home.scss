@@ -39,16 +39,28 @@
             position: absolute;
             left: 0;
             bottom: 0;
+            img{
+                height: 428px;
+                width: 502px;
+            }
         }
         .home-bg{
             position: absolute;
             right: 0;
             bottom: 10px;
+            img{
+                height: 499px;
+                width: 707px;
+            } 
         }
         .right-bg{
             position: absolute;
             right: 0;
             bottom: 0;
+            img{
+                height: 154px;
+                width: 113px;
+            }
         }
     }
 }
