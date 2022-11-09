@@ -29,6 +29,8 @@ body {
 }
 .nav-section-wrapper-toggler {
   display: none;
+  color: #9334bf;
+  font-size: 40px;
 }
 .nav-section-wrapper-navbar ul {
   display: flex;
